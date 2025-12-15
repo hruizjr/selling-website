@@ -65,10 +65,10 @@ a {
     transition: color 0.2s ease;
 }
 
-a:hover,
+/* a:hover,
 a:focus-visible {
     color: var(--brand-red);
-}
+} */
 
 a:focus-visible,
 button:focus-visible,
@@ -152,8 +152,8 @@ textarea {
 
 .btn--ghost {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    color: #fff;
+    border: 1px solid var(--brand-red);
+    color: var(--brand-red);
     box-shadow: none;
 }
 
