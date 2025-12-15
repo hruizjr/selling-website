@@ -152,9 +152,17 @@ textarea {
 
 .btn--ghost {
     background: transparent;
+    box-shadow: none;
+}
+
+.btn--ghost.white {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn--ghost.red {
     border: 1px solid var(--brand-red);
     color: var(--brand-red);
-    box-shadow: none;
 }
 
 .announcement {
