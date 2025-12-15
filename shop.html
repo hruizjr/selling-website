@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop | Sano Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="announcement">
+        <div class="container announcement__inner">
+            <span>Free shipping from &#8369;249 • Customer care 5743*</span>
+            <div class="announcement__links">
+                <a href="contact.html#faq">Help Center</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="container site-header__grid">
+            <a class="logo" href="index.html">
+                <span class="logo__symbol">S</span>
+                <span class="logo__text">Sano Shop</span>
+            </a>
+
+            <form class="search" role="search">
+                <label class="sr-only" for="search-input">Search</label>
+                <input id="search-input" type="search" placeholder="Search the entire catalog" />
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="header-actions">
+                <button class="icon-button" aria-label="Account">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12c2.5 0 4.5-2 4.5-4.5S14.5 3 12 3 7.5 5 7.5 7.5 9.5 12 12 12zm0 2c-3.3 0-6 2.2-6 4.8V21h12v-2.2c0-2.6-2.7-4.8-6-4.8z" /></svg>
+                </button>
+                <button class="icon-button" aria-label="Wishlist">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.3-3.4-8.5-7.6C1.2 9.4 2.1 6 4.9 4.9c1.6-.6 3.5-.1 4.7 1.1 1.2-1.2 3.1-1.7 4.7-1.1 2.8 1.1 3.7 4.5 1.4 8.5C18.3 17.6 12 21 12 21z" /></svg>
+                </button>
+                <button class="icon-button cart" aria-label="Cart">
+                    <span class="cart__count">2</span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 21c-.8 0-1.5.7-1.5 1.5S6.2 24 7 24s1.5-.7 1.5-1.5S7.8 21 7 21zm10 0c-.8 0-1.5.7-1.5 1.5S16.2 24 17 24s1.5-.7 1.5-1.5S17.8 21 17 21zM6.2 6l-.6-2H1V2h5.5l2.5 8.5h9.8l2.2-6.5H8.1L7.4 2h14.3l-3.2 9.5a1.5 1.5 0 0 1-1.4 1H8.3l-.6 2H21v2H6.6l-.4 1.5H3V16h2.4L6.2 6z" /></svg>
+                </button>
+            </div>
+        </div>
+        <nav class="utility-nav" aria-label="Primary site">
+            <div class="container utility-nav__inner">
+                <a class="utility-nav__link" href="index.html">Home</a>
+                <a class="utility-nav__link is-active" href="shop.html">Shop</a>
+                <a class="utility-nav__link" href="about.html">About</a>
+                <a class="utility-nav__link" href="contact.html">Support</a>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="primary-nav">
+        <div class="container">
+            <ul>
+                <li><a href="shop.html">All Products</a></li>
+                <li><a href="#laundry">Laundry</a></li>
+                <li><a href="#kitchen">Kitchen Care</a></li>
+                <li><a href="#bath">Bath &amp; Tile</a></li>
+                <li><a href="#fragrance">Scent &amp; Air</a></li>
+                <li><a href="#paper">Paper Goods</a></li>
+                <li><a href="#deals">Deals</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-hero page-hero--shop">
+            <div class="container page-hero__inner">
+                <div>
+                    <p class="eyebrow">Shop Sano</p>
+                    <h1>Everything you need for a spotless routine</h1>
+                    <p class="lead">Browse more than 70 formulas for laundry, kitchen, bath, and professional care. Built on decades of chemistry and customer feedback.</p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#deals">Shop seasonal deals</a>
+                        <a class="btn btn--ghost" href="about.html">Our story</a>
+                    </div>
+                </div>
+                <div class="page-hero__stats">
+                    <div class="stat-card">
+                        <span class="stat-card__value">70+</span>
+                        <span class="stat-card__label">Products</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__value">48h</span>
+                        <span class="stat-card__label">Express delivery</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-card__value">4.8★</span>
+                        <span class="stat-card__label">Store rating</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="filter-bar">
+            <div class="container filter-bar__inner">
+                <div class="filter-bar__group">
+                    <button class="pill active">All</button>
+                    <button class="pill">New</button>
+                    <button class="pill">Value packs</button>
+                    <button class="pill">Eco</button>
+                </div>
+                <div class="filter-bar__group">
+                    <span>Sort by:</span>
+                    <button class="pill">Top rated</button>
+                    <button class="pill">Price</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop-section" id="laundry">
+            <div class="container">
+                <header class="section-heading">
+                    <div>
+                        <p class="eyebrow">Laundry Lab</p>
+                        <h2>Powerful detergents &amp; boosters</h2>
+                    </div>
+                    <a class="link" href="#deals">Bundle &amp; save</a>
+                </header>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-card__tag">Bestseller</div>
+                        <div class="product-card__media"></div>
+                        <h3>Power Clean Liquid Detergent</h3>
+                        <p class="price">&#8369;34.90</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Soft Touch Fabric Softener</h3>
+                        <p class="price">&#8369;29.90</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Whitening Booster Capsules</h3>
+                        <p class="price">&#8369;32.00</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Baby Soft Hypoallergenic</h3>
+                        <p class="price">&#8369;36.00</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop-section" id="kitchen">
+            <div class="container">
+                <header class="section-heading">
+                    <div>
+                        <p class="eyebrow">Kitchen Care</p>
+                        <h2>Degreasers and dish solutions</h2>
+                    </div>
+                    <a class="link" href="#fragrance">Pair with air care</a>
+                </header>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Ultra Degreaser Concentrate</h3>
+                        <p class="price">&#8369;27.90</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Foaming Oven Cleaner</h3>
+                        <p class="price">&#8369;31.90</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Dish Tabs Citrus Burst</h3>
+                        <p class="price">&#8369;24.00</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Stainless Polish Mist</h3>
+                        <p class="price">&#8369;33.50</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop-section" id="bath">
+            <div class="container">
+                <header class="section-heading">
+                    <div>
+                        <p class="eyebrow">Bath &amp; Tile</p>
+                        <h2>Shine for ceramic, glass &amp; grout</h2>
+                    </div>
+                    <a class="link" href="#paper">Add wipes</a>
+                </header>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Lime Scale Remover Gel</h3>
+                        <p class="price">&#8369;28.40</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Glass Guard Spray</h3>
+                        <p class="price">&#8369;22.80</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Tile Revive Scrub</h3>
+                        <p class="price">&#8369;30.00</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__media"></div>
+                        <h3>Moisture Defense Spray</h3>
+                        <p class="price">&#8369;26.90</p>
+                        <button class="btn btn--secondary">Add to cart</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections" id="fragrance">
+            <div class="container">
+                <header class="section-heading">
+                    <div>
+                        <p class="eyebrow">Scent &amp; Air</p>
+                        <h2>Create ambiance for every room</h2>
+                    </div>
+                    <a class="link" href="#paper">Complete the basket</a>
+                </header>
+                <div class="collection-grid">
+                    <article class="collection-card">
+                        <h3>Air Touch</h3>
+                        <p>Room sprays, diffusers, and plug-ins that last up to 60 days.</p>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Fresh Laundry</h3>
+                        <p>Signature scents that match our detergents for layering.</p>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Calm Night</h3>
+                        <p>Lavender and chamomile mist to reset your bedroom.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections" id="paper">
+            <div class="container">
+                <header class="section-heading">
+                    <div>
+                        <p class="eyebrow">Paper Goods</p>
+                        <h2>Soft, strong, and family approved</h2>
+                    </div>
+                </header>
+                <div class="collection-grid">
+                    <article class="collection-card">
+                        <h3>Baby Soft Tissue</h3>
+                        <p>Hypoallergenic tissue packs with moisture-lock wrap.</p>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Kitchen Towels</h3>
+                        <p>Three-layer absorbency and easy tear technology.</p>
+                    </article>
+                    <article class="collection-card">
+                        <h3>Professional Rolls</h3>
+                        <p>Bulk packs for offices and hospitality partners.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo" id="deals">
+            <div class="container promo__grid">
+                <article class="promo-card">
+                    <p>Seasonal pick</p>
+                    <h3>Spring deep clean kit</h3>
+                    <a href="#laundry" class="btn btn--ghost">View products</a>
+                </article>
+                <article class="promo-card promo-card--secondary">
+                    <p>Members club</p>
+                    <h3>Extra 10% off bundles</h3>
+                    <a href="about.html#community" class="btn btn--ghost">Join Club Sano</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <div>
+                <a class="logo" href="index.html">
+                    <span class="logo__symbol">S</span>
+                    <span class="logo__text">Sano Shop</span>
+                </a>
+                <p>Advanced cleaning and care solutions for home and business. Fast delivery, responsive service, and weekly offers you will love.</p>
+                <div class="footer__contact">
+                    <a href="tel:05743">5743*</a>
+                    <a href="mailto:online@sano.co.il">online@sano.co.il</a>
+                </div>
+            </div>
+            <div>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="contact.html#support">Track order</a></li>
+                    <li><a href="contact.html#policies">Return policy</a></li>
+                    <li><a href="contact.html#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>My account</h4>
+                <ul>
+                    <li><a href="contact.html#support">Sign in</a></li>
+                    <li><a href="contact.html#support">Orders</a></li>
+                    <li><a href="about.html#community">Club Sano</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Stay in the loop</h4>
+                <p>Get exclusive perks and cleaning inspiration via email.</p>
+                <form class="footer__form">
+                    <label class="sr-only" for="footer-email">Email</label>
+                    <input id="footer-email" type="email" placeholder="hello@email.com" />
+                    <button type="submit" class="btn btn--secondary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__meta">
+            <div class="container footer__meta-inner">
+                <span>&copy; 2024 Sano Shop. All rights reserved.</span>
+                <div class="footer__payments">
+                    <span>VISA</span>
+                    <span>Mastercard</span>
+                    <span>Isracard</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
